@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tan3_2_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1.用户访谈"
+        android:textSize="30dp"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tan3_2_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2.开放式、封闭式与半封闭式问题及问题比较"
+        android:textSize="30dp"
+        android:layout_marginTop="16dp"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/tan3_2_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3.慎设封闭式问题、问题类别的选择"
+        android:textSize="30dp"
+        android:layout_marginTop="16dp"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/tan3_2_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4.问题组织、准备、交流技巧"
+        android:textSize="30dp"
+        android:layout_marginTop="16dp"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/tan3_2_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5.用户调查问卷"
+        android:textSize="30dp"
+        android:layout_marginTop="16dp"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="bold"/>
+
+</LinearLayout>

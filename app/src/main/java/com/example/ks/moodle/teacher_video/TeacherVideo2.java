@@ -8,6 +8,7 @@ import android.widget.TextView;
 
 import com.example.ks.moodle.R;
 import com.example.ks.moodle.video.ControllerActivity;
+import com.example.ks.moodle.video.VideoActivity2;
 
 public class TeacherVideo2 extends Activity{
     private TextView chenTv;
@@ -24,7 +25,7 @@ public class TeacherVideo2 extends Activity{
         chenTv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(TeacherVideo2.this, ControllerActivity.class);
+                Intent intent=new Intent(TeacherVideo2.this, VideoActivity2.class);
                 intent.putExtra("url","http://222.29.159.119/mp4files/1152000001553C81/software-moodle.oss-cn-qingdao.aliyuncs.com/moodle_vedio/zhedacy_01_02_01.mp4");
                 startActivity(intent);
             }
@@ -32,7 +33,7 @@ public class TeacherVideo2 extends Activity{
         meiTv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(TeacherVideo2.this, ControllerActivity.class);
+                Intent intent=new Intent(TeacherVideo2.this, VideoActivity2.class);
                 intent.putExtra("url","http://software-moodle.oss-cn-qingdao.aliyuncs.com/moodle_vedio/beidawlf_01_02_05.mp4");
                 startActivity(intent);
 
@@ -41,7 +42,7 @@ public class TeacherVideo2 extends Activity{
         sunTv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(TeacherVideo2.this, ControllerActivity.class);
+                Intent intent=new Intent(TeacherVideo2.this, VideoActivity2.class);
                 intent.putExtra("url","http://222.29.159.116/mp4files/2085000000C1E7ED/software-moodle.oss-cn-qingdao.aliyuncs.com/moodle_vedio/beidawlf_01_03_03.mp4");
                 startActivity(intent);
 
@@ -50,7 +51,7 @@ public class TeacherVideo2 extends Activity{
         qiTv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(TeacherVideo2.this, ControllerActivity.class);
+                Intent intent=new Intent(TeacherVideo2.this, VideoActivity2.class);
                 intent.putExtra("url","http://222.29.159.119/mp4files/1086000001568841/software-moodle.oss-cn-qingdao.aliyuncs.com/moodle_vedio/guofangkedaqzc_01_01_02.mp4");
                 startActivity(intent);
             }

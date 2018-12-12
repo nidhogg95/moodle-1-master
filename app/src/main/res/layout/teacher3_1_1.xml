@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/xingzhi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="需求的5个基本性质"
+        android:textSize="30dp"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/fenlei"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="需求分类"
+        android:textSize="30dp"
+        android:layout_marginTop="16dp"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/gongneng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="功能需求"
+        android:textSize="30dp"
+        android:layout_marginTop="16dp"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/xingneng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="性能需求"
+        android:textSize="30dp"
+        android:layout_marginTop="16dp"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/waibujiekou"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="外部接口需求"
+        android:textSize="30dp"
+        android:layout_marginTop="16dp"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/shejiyueshu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="设计约束"
+        android:textSize="30dp"
+        android:layout_marginTop="16dp"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/zhiliangshuxing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="质量属性"
+        android:textSize="30dp"
+        android:layout_marginTop="16dp"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="bold"/>
+
+
+</LinearLayout>

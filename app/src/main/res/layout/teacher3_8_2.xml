@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tan3_8_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1.提出什么是需求分析、如何获得对软件需求的理解"
+        android:textSize="30dp"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/tan3_8_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2.如何改进软件需求的质量（通过需求建模）；并提出需求分析的任务"
+        android:textSize="30dp"
+        android:layout_marginTop="16dp"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="bold"/>
+
+</LinearLayout>

@@ -11,10 +11,7 @@ import android.widget.Toast;
 
 import com.example.ks.moodle.entity.Chapter;
 import com.example.ks.moodle.entity.Lesson;
-import com.example.ks.moodle.teacher_video.TeacherVideo;
-import com.example.ks.moodle.teacher_video.TeacherVideo2;
-import com.example.ks.moodle.teacher_video.TeacherVideo1_3;
-import com.example.ks.moodle.teacher_video.TeacherVideo4;
+import com.example.ks.moodle.teacher_video.*;
 import com.example.ks.moodle.util.TreeViewAdapter;
 
 import java.util.ArrayList;
@@ -157,6 +154,37 @@ public class TestExpendListView extends Activity {
                             startActivity(intent);
                         }
 
+                        else if(groupPosition==1&&childPosition==2){
+                            Intent intent = new Intent(TestExpendListView.this, TeacherVideo2_3.class);
+                            startActivity(intent);
+                        }else if(groupPosition==1&&childPosition==3){
+                            Intent intent = new Intent(TestExpendListView.this, TeacherVideo2_4.class);
+                            startActivity(intent);
+                        }else if(groupPosition==1&&childPosition==4){
+                            Intent intent = new Intent(TestExpendListView.this, TeacherVideo2_5.class);
+                            startActivity(intent);
+
+                        }else if(groupPosition==1&&childPosition==5){
+                            Intent intent = new Intent(TestExpendListView.this, TeacherVideo2_6.class);
+                            startActivity(intent);
+                        }
+
+                        else if(groupPosition==2&&childPosition==0){
+                            Intent intent = new Intent(TestExpendListView.this, TeacherVideo3_1.class);
+                            startActivity(intent);
+                        }
+                        else if(groupPosition==2&&childPosition==1){
+                            Intent intent = new Intent(TestExpendListView.this, TeacherVideo3_2.class);
+                            startActivity(intent);
+                        }
+                        else if(groupPosition==2&&childPosition==2){
+                            Intent intent = new Intent(TestExpendListView.this, TeacherVideo3_3.class);
+                            startActivity(intent);
+                        }
+                        else if(groupPosition==2&&childPosition==7){
+                            Intent intent = new Intent(TestExpendListView.this, TeacherVideo3_8.class);
+                            startActivity(intent);
+                        }
 
                         //Intent intent = new Intent(TestExpendListView.this, ControllerActivity.class);
 

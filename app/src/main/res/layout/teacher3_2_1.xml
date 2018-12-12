@@ -4,13 +4,12 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/sun2_3"
+        android:id="@+id/sun3_2_1"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="孙艳春老师的教学视频"
+        android:layout_height="wrap_content"
+        android:text="软件需求发现的其他技术——交谈，说明其成功条件、存在的风险及其应对措施"
         android:textSize="30dp"
         android:textColor="@android:color/background_dark"
-        android:textStyle="bold"
-    />
+        android:textStyle="bold"/>
 
 </LinearLayout>

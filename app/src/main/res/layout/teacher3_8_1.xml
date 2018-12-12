@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
     <TextView
-        android:id="@+id/sun2_3"
+        android:id="@+id/sun3_8_1"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="孙艳春老师的教学视频"
+        android:layout_height="wrap_content"
+        android:text="1.需求验证"
         android:textSize="30dp"
         android:textColor="@android:color/background_dark"
-        android:textStyle="bold"
-    />
+        android:textStyle="bold"/>
 
 </LinearLayout>

@@ -55,7 +55,7 @@ public class TeacherVideo extends Activity {
         meiTv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(TeacherVideo.this, ControllerActivity.class);
+                Intent intent=new Intent(TeacherVideo.this, VideoActivity2.class);
                 intent.putExtra("url","http://222.29.159.119/mp4files/1152000001553C81/software-moodle.oss-cn-qingdao.aliyuncs.com/moodle_vedio/zhedacy_01_02_01.mp4");
                 startActivity(intent);
 
